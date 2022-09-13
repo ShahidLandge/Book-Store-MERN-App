@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formheader {
+  margin-top: 1rem;
+}
+input,
+button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d3d3d3;
+  margin: 0.5rem;
+  font-size: large;
+  border-radius: 0.125rem;
+}
+button {
+  cursor: pointer;
+}
+button:active {
+  background-color: yellow;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 1rem 0.2rem #d3d3d3;
+  background: #fff;
+}
+select {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 0.7vmax 4vmax;
+  padding-right: 1vmax;
+  width: 280px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  /* border-radius: 4px; */
+  font-size: large;
+  outline: none;
+}
+
+.filterButton {
+  padding: 0.5rem 1rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
